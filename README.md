@@ -1,5 +1,11 @@
 # Analytics Performance
 
+**Live Demo:** https://analytic-sperformance.github.io/analytics-performance-website/
+
+BI & Data Analytics solutions built with Qlik Sense, Apache Superset, Power BI and Python.
+
+# Analytics Performance
+
 Сайт Analytics Performance — презентационная площадка услуг в области BI-аналитики и работы с данными.
 
 ## О проекте
