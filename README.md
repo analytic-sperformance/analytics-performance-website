@@ -2,80 +2,83 @@
 
 **Live Demo:** https://analytic-sperformance.github.io/analytics-performance-website/
 
-BI & Data Analytics solutions built with Qlik Sense, Apache Superset, Power BI and Python.
+A portfolio website presenting BI and data analytics services, solutions, and project examples using Qlik Sense, Apache Superset, Power BI, and Python.
 
-# Analytics Performance
+## Overview
 
-Сайт Analytics Performance — презентационная площадка услуг в области BI-аналитики и работы с данными.
+Analytics Performance is a responsive landing page designed to showcase business intelligence services and data analytics expertise.
 
-## О проекте
+The website presents available services, work packages, project examples, and contact information for potential clients.
 
-Лендинг для представления BI-услуг, описания пакетов работ, демонстрации кейсов и связи с потенциальными клиентами.
+## Features
 
-## Возможности
+- **Responsive design** — layouts adapted for desktop and mobile devices.
+- **Section navigation** — navigation menu with active section highlighting during scrolling.
+- **UI animations** — animated interface elements and transitions.
+- **Services and case studies** — dedicated sections describing services and project examples.
+- **FAQ section** — answers to frequently asked questions.
+- **Contact form** — message submission through EmailJS.
+- **SEO metadata** — page metadata and Open Graph tags for search engines and link previews.
 
-- Адаптивный интерфейс для мобильных устройств и компьютеров.
-- Навигация по разделам с подсветкой активного раздела при прокрутке.
-- Анимации элементов интерфейса.
-- Разделы об услугах, кейсах и часто задаваемых вопросах.
-- Форма обратной связи с отправкой сообщений через EmailJS.
-- SEO-метаданные и Open Graph для предпросмотра ссылок.
+## Tech Stack
 
-## Технологии
+| Technology | Purpose |
+|---|---|
+| React 19 | UI development |
+| TypeScript | Static typing |
+| Vite | Development server and build tooling |
+| Tailwind CSS | Styling |
+| Framer Motion | UI animations |
+| React Hook Form | Form state management |
+| React Hot Toast | Notifications |
+| EmailJS | Contact form email delivery |
+| Lucide React | Icons |
 
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-- React Hook Form
-- React Hot Toast
-- EmailJS
-- Lucide React
+## Getting Started
 
-## Локальный запуск
+### Prerequisites
 
-Требуется установленный Node.js и npm.
+- Node.js
+- npm
 
-Клонирование репозитория:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/analytic-sperformance/analytics-performance-website.git
 cd analytics-performance-website
 ```
 
-Установка зависимостей:
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-Запуск в режиме разработки:
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Сборка production-версии:
+### 4. Build for production
 
 ```bash
 npm run build
 ```
 
-Проверка кода:
+### 5. Run code linting
 
 ```bash
 npm run lint
 ```
 
-Предпросмотр production-сборки:
+### 6. Preview the production build
 
 ```bash
 npm run preview
 ```
 
-## Контакты
+## Contact
 
-- Telegram: https://t.me/analytics_performance
-- Email: info@analytics-performance.ru
-
+- **Telegram:** https://t.me/analytics_performance
+- **Email:** info@analytics-performance.ru
