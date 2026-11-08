@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,16 +27,22 @@ a:hover {
 }
 
 body {
+  display: block;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
   min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 button {
@@ -66,6 +76,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

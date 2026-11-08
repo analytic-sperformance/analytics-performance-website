@@ -1,12 +1,74 @@
-# React + Vite
+# Analytics Performance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Сайт Analytics Performance — презентационная площадка услуг в области BI-аналитики и работы с данными.
 
-Currently, two official plugins are available:
+## О проекте
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Лендинг для представления BI-услуг, описания пакетов работ, демонстрации кейсов и связи с потенциальными клиентами.
 
-## Expanding the ESLint configuration
+## Возможности
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Адаптивный интерфейс для мобильных устройств и компьютеров.
+- Навигация по разделам с подсветкой активного раздела при прокрутке.
+- Анимации элементов интерфейса.
+- Разделы об услугах, кейсах и часто задаваемых вопросах.
+- Форма обратной связи с отправкой сообщений через EmailJS.
+- SEO-метаданные и Open Graph для предпросмотра ссылок.
+
+## Технологии
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Hook Form
+- React Hot Toast
+- EmailJS
+- Lucide React
+
+## Локальный запуск
+
+Требуется установленный Node.js и npm.
+
+Клонирование репозитория:
+
+```bash
+git clone https://github.com/analytic-sperformance/analytics-performance-website.git
+cd analytics-performance-website
+```
+
+Установка зависимостей:
+
+```bash
+npm install
+```
+
+Запуск в режиме разработки:
+
+```bash
+npm run dev
+```
+
+Сборка production-версии:
+
+```bash
+npm run build
+```
+
+Проверка кода:
+
+```bash
+npm run lint
+```
+
+Предпросмотр production-сборки:
+
+```bash
+npm run preview
+```
+
+## Контакты
+
+- Telegram: https://t.me/analyticsperformance
+- Email: info@analytics-performance.ru
