@@ -429,7 +429,7 @@ export default function LandingPage() {
         </form>
         <div className="mt-8 text-center space-y-1 text-gray-400 text-sm select-text">
           <p>Email: info@analytics-performance.ru</p>
-          <p>Telegram: @analyticsperformance</p>
+          <p>Telegram: @analytics_performance</p>
         </div>
       </Section>
 
@@ -437,7 +437,7 @@ export default function LandingPage() {
       <footer className="text-center text-gray-500 text-xs py-6 border-t border-gray-800 mt-20 select-none">
         Сделано с ❤️ в Analytics Performance
         <div className="mt-2 flex justify-center space-x-4 text-gray-400">
-          <a href="https://t.me/analyticsperformance" target="_blank" rel="noreferrer" aria-label="Telegram" className="hover:text-blue-400 transition">
+          <a href="https://t.me/analytics_performance" target="_blank" rel="noreferrer" aria-label="Telegram" className="hover:text-blue-400 transition">
             <Users className="w-5 h-5" />
           </a>
           <a href="mailto:info@analytics-performance.ru" aria-label="Email" className="hover:text-blue-400 transition">
