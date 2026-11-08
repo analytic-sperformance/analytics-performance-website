@@ -4,7 +4,7 @@ import { ArrowRight, Mail, Cpu, BarChart2, Briefcase, Users, CheckCircle, Messag
 import Section from "@/components/Section";
 import { useForm } from "react-hook-form";
 import toast, { Toaster } from "react-hot-toast";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 
