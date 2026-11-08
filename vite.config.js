@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
+  base: '/analytics-performance-website/',
   server: {
     host: 'analytics_performance.local',
     port: 5173,
